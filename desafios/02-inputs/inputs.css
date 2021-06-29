@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.col{
+    flex-direction: column;
+}
+
+.ma-lg{
+    margin: 20px;
+}
+
+input{
+    padding: 10px;
+    min-width: 300px;
+    max-width: 400px;
+}
+.input1{
+    border-radius: 4px;
+color: red;
+border:1px solid red
+
+}
+.input1:focus{
+    box-shadow: 0 0 0 0;
+border:1px solid red;
+
+    /* color: rgba(226, 214, 214, 0.761);
+    background:  linear-gradient( 145deg, rgba(89, 14, 99, 0.672), rgba(80, 1, 80, 0.844),rgb(49, 14, 49)); */
+}
